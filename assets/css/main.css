@@ -2,14 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
-/*
-	Identity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 	img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
@@ -101,33 +93,33 @@
 		background-attachment: fixed,			fixed,				fixed;
 	}
 
-		body:after {
-			content: '';
-			display: block;
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: inherit;
-			opacity: 0;
-			z-index: 1;
-			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-repeat: repeat,			no-repeat;
-			background-size: 100px 100px, cover;
-			background-position: top left,		center center;
-			-moz-transition: opacity 1.75s ease-out;
-			-webkit-transition: opacity 1.75s ease-out;
-			-ms-transition: opacity 1.75s ease-out;
-			transition: opacity 1.75s ease-out;
-		}
+	body:after {
+		content: '';
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: inherit;
+		opacity: 0;
+		z-index: 1;
+		background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-repeat: repeat,			no-repeat;
+		background-size: 100px 100px, cover;
+		background-position: top left,		center center;
+		-moz-transition: opacity 1.75s ease-out;
+		-webkit-transition: opacity 1.75s ease-out;
+		-ms-transition: opacity 1.75s ease-out;
+		transition: opacity 1.75s ease-out;
+	}
 
-		body.is-loading:after {
-			opacity: 1;
-		}
+	body.is-loading:after {
+		opacity: 1;
+	}
 
 /* Type */
 
@@ -141,22 +133,22 @@
 		text-transform: uppercase;
 	}
 
-		@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
+		body, input, select, textarea {
+			font-size: 11pt;
 		}
 
-		@media screen and (max-width: 480px) {
+	}
 
-			body, input, select, textarea {
-				font-size: 10pt;
-				line-height: 1.75;
-			}
+	@media screen and (max-width: 480px) {
 
+		body, input, select, textarea {
+			font-size: 10pt;
+			line-height: 1.75;
 		}
+
+	}
 
 	a {
 		-moz-transition: color 0.2s ease, border-color 0.2s ease;
@@ -260,13 +252,13 @@
 		margin: 0 0 1.5em 0;
 	}
 
-		form > .field {
-			margin: 0 0 1.5em 0;
-		}
+	form > .field {
+		margin: 0 0 1.5em 0;
+	}
 
-			form > .field > :last-child {
-				margin-bottom: 0;
-			}
+	form > .field > :last-child {
+		margin-bottom: 0;
+	}
 
 	label {
 		color: #313f47;
@@ -830,7 +822,7 @@
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
-		opacity: 0.95;
+		/*opacity: 0.95;*/
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
