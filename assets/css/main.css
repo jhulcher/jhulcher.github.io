@@ -396,7 +396,7 @@
 	}
 
 	.resume {
-		padding: 0px 0px 20px 0px;
+		padding: 15px 0px 20px 0px;
 		color: blue;
 	}
 
@@ -410,6 +410,14 @@
 		font-size: 15px;
 		width: 400px;
 		padding: 12px 0px 15px 0px;
+	}
+
+	.bio-title {
+		/*font-style: italic;*/
+		font-weight: bold;
+		font-size: 15px;
+		width: 400px;
+		padding: 12px 0px 10px 0px;
 	}
 
 	.end-text {
