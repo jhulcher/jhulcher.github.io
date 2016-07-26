@@ -379,6 +379,7 @@
 	.skills {
 		font-size: 12px;
 		width: 400px;
+		font-weight: bold;
 		text-align: justify;
 		text-align-last: justify;
 		/*font-weight: bold;*/
